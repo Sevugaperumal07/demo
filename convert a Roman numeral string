@@ -1,0 +1,30 @@
+var I = 1;
+var V = 5;
+var X = 10;
+var L = 50;
+var C = 100;
+var D = 500;
+var M = 1000;
+
+let user = "III";
+let s = 0;
+
+for (let i = 0; i < user.length; i++) {
+  if (user[i] == 'I') {
+    s = s + I;
+  } else if (user[i] == 'V') {
+    s = s + V;
+  } else if (user[i] == 'X') {
+    s = s + X;
+  } else if (user[i] == 'L') {
+    s = s + L;
+  } else if (user[i] == 'C') {
+    s = s + C;
+  } else if (user[i] == 'D') {
+    s = s + D;
+  } else {
+    s = s + M;
+  }
+}
+
+console.log(s);
